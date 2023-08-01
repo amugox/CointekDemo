@@ -1,0 +1,224 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:2:1-113:12
+INJECTED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:2:1-113:12
+INJECTED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:2:1-113:12
+INJECTED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:2:1-113:12
+MERGED from [androidx.core:core:1.10.1] C:\Users\AmugoX\.gradle\caches\transforms-3\251f532f50ee6e2781cb8451fea75aab\transformed\core-1.10.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\AmugoX\.gradle\caches\transforms-3\fe25c58a9394905f4373e6219ad836de\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\AmugoX\.gradle\caches\transforms-3\0690ec13b66ed538be8345de6c0a1db4\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\AmugoX\.gradle\caches\transforms-3\4688ecf705b36510ce1bbac39bea46c6\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\AmugoX\.gradle\caches\transforms-3\75a38362746d2c2e11b593b3f5422848\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\AmugoX\.gradle\caches\transforms-3\ec262d5dd80ed8803f01a8338c2fb539\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+	package
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:4:5-48
+		INJECTED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:6:5-32
+		INJECTED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:5:5-30
+		INJECTED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml
+uses-feature#android.hardware.usb.host
+ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:8:5-10:35
+	android:required
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:10:9-32
+	android:name
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:9:9-49
+uses-feature#android.hardware.camera
+ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:12:9-47
+uses-permission#android.hardware.usb.host
+ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:15:5-65
+	android:name
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:15:22-62
+uses-permission#android.hardware.usb.accessory
+ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:16:5-70
+	android:name
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:16:22-67
+uses-permission#android.permission.CAMERA
+ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:18:5-65
+	android:name
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:18:22-62
+uses-permission#android.permission.INTERNET
+ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:19:5-67
+	android:name
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:19:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:21:5-22:38
+	android:maxSdkVersion
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:22:9-35
+	android:name
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:21:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:23:22-77
+application
+ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:26:5-112:19
+INJECTED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:26:5-112:19
+MERGED from [androidx.core:core:1.10.1] C:\Users\AmugoX\.gradle\caches\transforms-3\251f532f50ee6e2781cb8451fea75aab\transformed\core-1.10.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.10.1] C:\Users\AmugoX\.gradle\caches\transforms-3\251f532f50ee6e2781cb8451fea75aab\transformed\core-1.10.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\AmugoX\.gradle\caches\transforms-3\fe25c58a9394905f4373e6219ad836de\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\AmugoX\.gradle\caches\transforms-3\fe25c58a9394905f4373e6219ad836de\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.10.1] C:\Users\AmugoX\.gradle\caches\transforms-3\251f532f50ee6e2781cb8451fea75aab\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:29:9-41
+	android:icon
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:28:9-38
+	android:allowBackup
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:27:9-35
+activity#com.digitalpersona.uareu.SampleApp.UareUSampleJava
+ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:30:9-40:20
+	android:label
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:34:13-45
+	android:exported
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:33:13-36
+	android:configChanges
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:32:13-74
+	android:name
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:31:13-78
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:35:13-38:29
+action#android.intent.action.MAIN
+ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:37:27-74
+activity#com.digitalpersona.uareu.SampleApp.GetReaderActivity
+ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:41:9-57:20
+	android:label
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:45:13-45
+	android:exported
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:44:13-37
+	android:configChanges
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:43:13-74
+	android:name
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:42:13-80
+intent-filter#category:name:android.intent.category.LAUNCHER
+ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:46:13-48:29
+intent-filter#action:name:android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:50:13-52:29
+action#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:51:17-90
+	android:name
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:51:25-87
+meta-data#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:54:13-56:57
+	android:resource
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:56:17-54
+	android:name
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:55:17-79
+activity#com.digitalpersona.uareu.SampleApp.GetCapabilitiesActivity
+ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:58:9-66:20
+	android:label
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:62:13-45
+	android:exported
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:61:13-37
+	android:configChanges
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:60:13-74
+	android:name
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:59:13-86
+activity#com.digitalpersona.uareu.SampleApp.CaptureFingerprintActivity
+ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:67:9-75:20
+	android:label
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:71:13-45
+	android:exported
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:70:13-37
+	android:configChanges
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:69:13-74
+	android:name
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:68:13-89
+activity#com.digitalpersona.uareu.SampleApp.StreamImageActivity
+ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:76:9-84:20
+	android:label
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:80:13-45
+	android:exported
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:79:13-37
+	android:configChanges
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:78:13-74
+	android:name
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:77:13-82
+activity#com.digitalpersona.uareu.SampleApp.EnrollmentActivity
+ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:85:9-93:20
+	android:label
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:89:13-45
+	android:exported
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:88:13-37
+	android:configChanges
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:87:13-74
+	android:name
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:86:13-81
+activity#com.digitalpersona.uareu.SampleApp.VerificationActivity
+ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:94:9-102:20
+	android:label
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:98:13-45
+	android:exported
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:97:13-37
+	android:configChanges
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:96:13-74
+	android:name
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:95:13-83
+activity#com.digitalpersona.uareu.SampleApp.IdentificationActivity
+ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:103:9-111:20
+	android:label
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:107:13-45
+	android:exported
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:106:13-37
+	android:configChanges
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:105:13-74
+	android:name
+		ADDED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:104:13-85
+uses-sdk
+INJECTED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml
+INJECTED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml
+MERGED from [androidx.core:core:1.10.1] C:\Users\AmugoX\.gradle\caches\transforms-3\251f532f50ee6e2781cb8451fea75aab\transformed\core-1.10.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.10.1] C:\Users\AmugoX\.gradle\caches\transforms-3\251f532f50ee6e2781cb8451fea75aab\transformed\core-1.10.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\AmugoX\.gradle\caches\transforms-3\fe25c58a9394905f4373e6219ad836de\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\AmugoX\.gradle\caches\transforms-3\fe25c58a9394905f4373e6219ad836de\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\AmugoX\.gradle\caches\transforms-3\0690ec13b66ed538be8345de6c0a1db4\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\AmugoX\.gradle\caches\transforms-3\0690ec13b66ed538be8345de6c0a1db4\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\AmugoX\.gradle\caches\transforms-3\4688ecf705b36510ce1bbac39bea46c6\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\AmugoX\.gradle\caches\transforms-3\4688ecf705b36510ce1bbac39bea46c6\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\AmugoX\.gradle\caches\transforms-3\75a38362746d2c2e11b593b3f5422848\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\AmugoX\.gradle\caches\transforms-3\75a38362746d2c2e11b593b3f5422848\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\AmugoX\.gradle\caches\transforms-3\ec262d5dd80ed8803f01a8338c2fb539\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\AmugoX\.gradle\caches\transforms-3\ec262d5dd80ed8803f01a8338c2fb539\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] C:\Users\AmugoX\.gradle\caches\transforms-3\251f532f50ee6e2781cb8451fea75aab\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.1] C:\Users\AmugoX\.gradle\caches\transforms-3\251f532f50ee6e2781cb8451fea75aab\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.1] C:\Users\AmugoX\.gradle\caches\transforms-3\251f532f50ee6e2781cb8451fea75aab\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+permission#com.digitalpersona.demo.SampleApp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] C:\Users\AmugoX\.gradle\caches\transforms-3\251f532f50ee6e2781cb8451fea75aab\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.1] C:\Users\AmugoX\.gradle\caches\transforms-3\251f532f50ee6e2781cb8451fea75aab\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.1] C:\Users\AmugoX\.gradle\caches\transforms-3\251f532f50ee6e2781cb8451fea75aab\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] C:\Users\AmugoX\.gradle\caches\transforms-3\251f532f50ee6e2781cb8451fea75aab\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.1] C:\Users\AmugoX\.gradle\caches\transforms-3\251f532f50ee6e2781cb8451fea75aab\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+uses-permission#com.digitalpersona.demo.SampleApp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] C:\Users\AmugoX\.gradle\caches\transforms-3\251f532f50ee6e2781cb8451fea75aab\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.1] C:\Users\AmugoX\.gradle\caches\transforms-3\251f532f50ee6e2781cb8451fea75aab\transformed\core-1.10.1\AndroidManifest.xml:26:22-94

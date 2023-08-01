@@ -1,0 +1,225 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.digitalpersona.demo.SampleApp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-feature
+11-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:8:5-10:35
+12        android:name="android.hardware.usb.host"
+12-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:9:9-49
+13        android:required="true" />
+13-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:10:9-32
+14    <uses-feature
+14-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:11:5-13:36
+15        android:name="android.hardware.camera"
+15-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:12:9-47
+16        android:required="false" />
+16-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:13:9-33
+17
+18    <uses-permission android:name="android.hardware.usb.host" />
+18-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:15:5-65
+18-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:15:22-62
+19    <uses-permission android:name="android.hardware.usb.accessory" />
+19-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:16:5-70
+19-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:16:22-67
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:18:5-65
+20-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:18:22-62
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:19:5-67
+21-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:19:22-64
+22    <!-- 读写权限 -->
+23    <uses-permission
+23-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:21:5-22:38
+24        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+24-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:21:22-78
+25        android:maxSdkVersion="32" />
+25-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:22:9-35
+26    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+26-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:23:5-80
+26-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:23:22-77
+27
+28    <permission
+28-->[androidx.core:core:1.10.1] C:\Users\AmugoX\.gradle\caches\transforms-3\251f532f50ee6e2781cb8451fea75aab\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+29        android:name="com.digitalpersona.demo.SampleApp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+29-->[androidx.core:core:1.10.1] C:\Users\AmugoX\.gradle\caches\transforms-3\251f532f50ee6e2781cb8451fea75aab\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+30        android:protectionLevel="signature" />
+30-->[androidx.core:core:1.10.1] C:\Users\AmugoX\.gradle\caches\transforms-3\251f532f50ee6e2781cb8451fea75aab\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+31
+32    <uses-permission android:name="com.digitalpersona.demo.SampleApp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- <uses-permission android:name="com.digitalpersona.uareu.dpfpddusbhost.USB_PERMISSION" /> -->
+32-->[androidx.core:core:1.10.1] C:\Users\AmugoX\.gradle\caches\transforms-3\251f532f50ee6e2781cb8451fea75aab\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+32-->[androidx.core:core:1.10.1] C:\Users\AmugoX\.gradle\caches\transforms-3\251f532f50ee6e2781cb8451fea75aab\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+33    <application
+33-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:26:5-112:19
+34        android:allowBackup="true"
+34-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:27:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.10.1] C:\Users\AmugoX\.gradle\caches\transforms-3\251f532f50ee6e2781cb8451fea75aab\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+36        android:debuggable="true"
+37        android:extractNativeLibs="false"
+38        android:icon="@drawable/logo"
+38-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:28:9-38
+39        android:label="@string/app_name"
+39-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:29:9-41
+40        android:testOnly="true" >
+41        <activity
+41-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:30:9-40:20
+42            android:name="com.digitalpersona.uareu.SampleApp.UareUSampleJava"
+42-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:31:13-78
+43            android:configChanges="keyboardHidden|orientation|screenSize"
+43-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:32:13-74
+44            android:exported="true"
+44-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:33:13-36
+45            android:label="@string/app_name" >
+45-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:34:13-45
+46            <intent-filter>
+46-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:35:13-38:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:36:17-69
+47-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:36:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:37:17-77
+49-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:37:27-74
+50            </intent-filter>
+51        </activity>
+52        <activity
+52-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:41:9-57:20
+53            android:name="com.digitalpersona.uareu.SampleApp.GetReaderActivity"
+53-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:42:13-80
+54            android:configChanges="keyboardHidden|orientation|screenSize"
+54-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:43:13-74
+55            android:exported="false"
+55-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:44:13-37
+56            android:label="@string/app_name" >
+56-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:45:13-45
+57            <intent-filter>
+57-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:46:13-48:29
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:37:17-77
+58-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:37:27-74
+59            </intent-filter>
+60            <intent-filter>
+60-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:50:13-52:29
+61                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+61-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:51:17-90
+61-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:51:25-87
+62            </intent-filter>
+63
+64            <meta-data
+64-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:54:13-56:57
+65                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+65-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:55:17-79
+66                android:resource="@xml/device_filter" />
+66-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:56:17-54
+67        </activity>
+68        <activity
+68-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:58:9-66:20
+69            android:name="com.digitalpersona.uareu.SampleApp.GetCapabilitiesActivity"
+69-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:59:13-86
+70            android:configChanges="keyboardHidden|orientation|screenSize"
+70-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:60:13-74
+71            android:exported="false"
+71-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:61:13-37
+72            android:label="@string/app_name" >
+72-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:62:13-45
+73            <intent-filter>
+73-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:46:13-48:29
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:37:17-77
+74-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:37:27-74
+75            </intent-filter>
+76        </activity>
+77        <activity
+77-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:67:9-75:20
+78            android:name="com.digitalpersona.uareu.SampleApp.CaptureFingerprintActivity"
+78-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:68:13-89
+79            android:configChanges="keyboardHidden|orientation|screenSize"
+79-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:69:13-74
+80            android:exported="false"
+80-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:70:13-37
+81            android:label="@string/app_name" >
+81-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:71:13-45
+82            <intent-filter>
+82-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:46:13-48:29
+83                <category android:name="android.intent.category.LAUNCHER" />
+83-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:37:17-77
+83-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:37:27-74
+84            </intent-filter>
+85        </activity>
+86        <activity
+86-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:76:9-84:20
+87            android:name="com.digitalpersona.uareu.SampleApp.StreamImageActivity"
+87-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:77:13-82
+88            android:configChanges="keyboardHidden|orientation|screenSize"
+88-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:78:13-74
+89            android:exported="false"
+89-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:79:13-37
+90            android:label="@string/app_name" >
+90-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:80:13-45
+91            <intent-filter>
+91-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:46:13-48:29
+92                <category android:name="android.intent.category.LAUNCHER" />
+92-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:37:17-77
+92-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:37:27-74
+93            </intent-filter>
+94        </activity>
+95        <activity
+95-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:85:9-93:20
+96            android:name="com.digitalpersona.uareu.SampleApp.EnrollmentActivity"
+96-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:86:13-81
+97            android:configChanges="keyboardHidden|orientation|screenSize"
+97-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:87:13-74
+98            android:exported="false"
+98-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:88:13-37
+99            android:label="@string/app_name" >
+99-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:89:13-45
+100            <intent-filter>
+100-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:46:13-48:29
+101                <category android:name="android.intent.category.LAUNCHER" />
+101-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:37:17-77
+101-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:37:27-74
+102            </intent-filter>
+103        </activity>
+104        <activity
+104-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:94:9-102:20
+105            android:name="com.digitalpersona.uareu.SampleApp.VerificationActivity"
+105-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:95:13-83
+106            android:configChanges="keyboardHidden|orientation|screenSize"
+106-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:96:13-74
+107            android:exported="false"
+107-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:97:13-37
+108            android:label="@string/app_name" >
+108-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:98:13-45
+109            <intent-filter>
+109-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:46:13-48:29
+110                <category android:name="android.intent.category.LAUNCHER" />
+110-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:37:17-77
+110-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:37:27-74
+111            </intent-filter>
+112        </activity>
+113        <activity
+113-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:103:9-111:20
+114            android:name="com.digitalpersona.uareu.SampleApp.IdentificationActivity"
+114-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:104:13-85
+115            android:configChanges="keyboardHidden|orientation|screenSize"
+115-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:105:13-74
+116            android:exported="false"
+116-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:106:13-37
+117            android:label="@string/app_name" >
+117-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:107:13-45
+118            <intent-filter>
+118-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:46:13-48:29
+119                <category android:name="android.intent.category.LAUNCHER" />
+119-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:37:17-77
+119-->E:\Softwares\Android POS\CoinTek\UareU_Demo_V320_New_200407\UareU_Demo_V320_New\UareUSampleJavaV320_New\AndroidManifest.xml:37:27-74
+120            </intent-filter>
+121        </activity>
+122    </application>
+123
+124</manifest>

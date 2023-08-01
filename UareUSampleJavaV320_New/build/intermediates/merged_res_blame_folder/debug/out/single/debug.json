@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "com.digitalpersona.demo.SampleApp.UareUSampleJavaV320_New-merged_res-7:/drawable-hdpi_logo.gif.flat",
+        "source": "com.digitalpersona.demo.SampleApp.UareUSampleJavaV320_New-UareUSampleJavaV320_New-8:/drawable-hdpi/logo.gif"
+    },
+    {
+        "merged": "com.digitalpersona.demo.SampleApp.UareUSampleJavaV320_New-merged_res-7:/drawable-ldpi_logo.gif.flat",
+        "source": "com.digitalpersona.demo.SampleApp.UareUSampleJavaV320_New-UareUSampleJavaV320_New-8:/drawable-ldpi/logo.gif"
+    },
+    {
+        "merged": "com.digitalpersona.demo.SampleApp.UareUSampleJavaV320_New-merged_res-7:/layout-land_activity_capture_stream_320x240.xml.flat",
+        "source": "com.digitalpersona.demo.SampleApp.UareUSampleJavaV320_New-UareUSampleJavaV320_New-8:/layout-land/activity_capture_stream_320x240.xml"
+    },
+    {
+        "merged": "com.digitalpersona.demo.SampleApp.UareUSampleJavaV320_New-merged_res-7:/layout_activity_main.xml.flat",
+        "source": "com.digitalpersona.demo.SampleApp.UareUSampleJavaV320_New-UareUSampleJavaV320_New-8:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.digitalpersona.demo.SampleApp.UareUSampleJavaV320_New-merged_res-7:/layout-land_activity_capture_stream.xml.flat",
+        "source": "com.digitalpersona.demo.SampleApp.UareUSampleJavaV320_New-UareUSampleJavaV320_New-8:/layout-land/activity_capture_stream.xml"
+    },
+    {
+        "merged": "com.digitalpersona.demo.SampleApp.UareUSampleJavaV320_New-merged_res-7:/layout-land_activity_engine.xml.flat",
+        "source": "com.digitalpersona.demo.SampleApp.UareUSampleJavaV320_New-UareUSampleJavaV320_New-8:/layout-land/activity_engine.xml"
+    },
+    {
+        "merged": "com.digitalpersona.demo.SampleApp.UareUSampleJavaV320_New-merged_res-7:/layout_activity_get_list.xml.flat",
+        "source": "com.digitalpersona.demo.SampleApp.UareUSampleJavaV320_New-UareUSampleJavaV320_New-8:/layout/activity_get_list.xml"
+    },
+    {
+        "merged": "com.digitalpersona.demo.SampleApp.UareUSampleJavaV320_New-merged_res-7:/drawable-mdpi_logo.gif.flat",
+        "source": "com.digitalpersona.demo.SampleApp.UareUSampleJavaV320_New-UareUSampleJavaV320_New-8:/drawable-mdpi/logo.gif"
+    },
+    {
+        "merged": "com.digitalpersona.demo.SampleApp.UareUSampleJavaV320_New-merged_res-7:/layout_activity_engine.xml.flat",
+        "source": "com.digitalpersona.demo.SampleApp.UareUSampleJavaV320_New-UareUSampleJavaV320_New-8:/layout/activity_engine.xml"
+    },
+    {
+        "merged": "com.digitalpersona.demo.SampleApp.UareUSampleJavaV320_New-merged_res-7:/layout_activity_capture_stream.xml.flat",
+        "source": "com.digitalpersona.demo.SampleApp.UareUSampleJavaV320_New-UareUSampleJavaV320_New-8:/layout/activity_capture_stream.xml"
+    },
+    {
+        "merged": "com.digitalpersona.demo.SampleApp.UareUSampleJavaV320_New-merged_res-7:/layout-land_activity_engine_320x240.xml.flat",
+        "source": "com.digitalpersona.demo.SampleApp.UareUSampleJavaV320_New-UareUSampleJavaV320_New-8:/layout-land/activity_engine_320x240.xml"
+    },
+    {
+        "merged": "com.digitalpersona.demo.SampleApp.UareUSampleJavaV320_New-merged_res-7:/xml_device_filter.xml.flat",
+        "source": "com.digitalpersona.demo.SampleApp.UareUSampleJavaV320_New-UareUSampleJavaV320_New-8:/xml/device_filter.xml"
+    },
+    {
+        "merged": "com.digitalpersona.demo.SampleApp.UareUSampleJavaV320_New-merged_res-7:/drawable_black.jpg.flat",
+        "source": "com.digitalpersona.demo.SampleApp.UareUSampleJavaV320_New-UareUSampleJavaV320_New-8:/drawable/black.jpg"
+    }
+]
